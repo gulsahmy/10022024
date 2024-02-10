@@ -21,7 +21,7 @@ div i{
 }
 
 .fa-dollar-sign{
-    animation: snake .4s ease-in-out infinite alternate;
+    animation: shake .4s ease-in-out infinite alternate;
 }
 
 
@@ -39,7 +39,7 @@ div i{
     }
 }
 
-@keyframes snake{
+@keyframes shake{
     from{
         transform:rotate(0);
     }
